@@ -1,0 +1,6 @@
+// Check whether the task missed its deadline.
+        TickType_t deltaTime = timeFinished - timeBegan;
+        if(deltaTime > deadline)
+        {
+            PrintMissedDeadline("Medium", deltaTime);
+        }
